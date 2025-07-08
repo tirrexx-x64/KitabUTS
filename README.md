@@ -1,0 +1,1 @@
+gimana ini cok
