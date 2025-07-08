@@ -284,6 +284,7 @@ public class ArrayBuilder {
         return result;
     }
     
+    @Deprecated
     public static void bubbleSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - i - 1; j++) {
@@ -298,6 +299,7 @@ public class ArrayBuilder {
 
 
     // Sum of 1D array
+    @Deprecated
     public int sum1D(int[] arr) {
         int sum = 0;
         for (int val : arr) sum += val;
@@ -305,12 +307,14 @@ public class ArrayBuilder {
     }
 
     // Max/min value in 1D array
+    @Deprecated
     public int max1D(int[] arr) {
         int max = arr[0];
         for (int val : arr) if (val > max) max = val;
         return max;
     }
 
+    @Deprecated
     public int min1D(int[] arr) {
         int min = arr[0];
         for (int val : arr) if (val < min) min = val;
@@ -318,6 +322,7 @@ public class ArrayBuilder {
     }
 
     // Reverse a 1D array
+    @Deprecated
     public int[] reverseArray(int[] arr) {
         int[] result = new int[arr.length];
         for (int i = 0; i < arr.length; i++) {
@@ -327,6 +332,7 @@ public class ArrayBuilder {
     }
 
     // Check if a 2D array is symmetric
+    @Deprecated
     public boolean isSymmetric(int[][] matrix) {
         int n = matrix.length;
         for (int i = 0; i < n; i++) {
@@ -338,6 +344,7 @@ public class ArrayBuilder {
     }
 
     // Check if all rows/columns are equal sum
+    @Deprecated
     public boolean hasUniformRowSums(int[][] matrix) {
         int target = sum1D(matrix[0]);
         for (int i = 1; i < matrix.length; i++) {
@@ -347,12 +354,14 @@ public class ArrayBuilder {
     }
 
     // Print 1D array
+    @Deprecated
     public void print1D(int[] arr) {
         for (int val : arr) System.out.print(val + " ");
         System.out.println();
     }
 
     // Print with labels
+    @Deprecated
     public void printLabeledMatrix(String[] labels, int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             System.out.print(labels[i] + ": ");
@@ -363,7 +372,7 @@ public class ArrayBuilder {
         }
     }
 
-
+    @Deprecated
     public void fillIntBorder(int[][] array, int borderValue) {
         int rows = array.length;
         int cols = array[0].length;
@@ -378,6 +387,7 @@ public class ArrayBuilder {
         }
     }
 
+    @Deprecated
     public void fillStringBorder(String[][] array, String borderValue) {
         int rows = array.length;
         int cols = array[0].length;
@@ -392,6 +402,7 @@ public class ArrayBuilder {
         }
     }
 
+    @Deprecated
     public char[][] splitStringToCharGrid(String text, int columns) {
         int length = text.length();
         int rows = (int) Math.ceil((double) length / columns);
@@ -411,6 +422,7 @@ public class ArrayBuilder {
     }
 
 
+    @Deprecated
     public String[][] convertCharToString(char[][] charArray) {
         String[][] result = new String[charArray.length][charArray[0].length];
         for (int i = 0; i < charArray.length; i++) {
@@ -422,6 +434,7 @@ public class ArrayBuilder {
     }
 
 
+    @Deprecated
     public boolean containsSequence(char[][] grid, char[] word) {
         int rows = grid.length;
         int cols = grid[0].length;
@@ -443,9 +456,27 @@ public class ArrayBuilder {
     }
 
 
+    @Deprecated
     public boolean containsWord(char[][] grid, String word) {
-        return containsSequence(grid, word.toCharArray());
+            return containsSequence(grid, word.toCharArray());
+        }
+
+        public void insertRowIntoMatrix(int[][] matrix, int[] rowData, int rowIndex) {
+        if (matrix == null || rowData == null) {
+            System.out.println("Matrix or row data cannot be null.");
+        }
+        if (rowIndex < 0 || rowIndex >= matrix.length) {
+            System.out.println ("Invalid row index.");
+        }
+        if (matrix[0].length != rowData.length) {
+            System.out.println ("Row data must match matrix column size.");
+        }
+
+        for (int i = 0; i < rowData.length; i++) {
+            matrix[rowIndex][i] = rowData[i];
+        }
     }
+
 
 
 

@@ -36,4 +36,30 @@ public class Validator {
     }
 
 
+
+    public int[] validateFixedSizeIntRowInput(String message, int size) {
+        System.out.println(message);
+        
+        while (true) {
+            String line = input.nextLine().trim();
+            String[] tokens = line.split("\\s+");
+
+            if (tokens.length != size) {
+                System.out.println("Masukan harus terdiri dari tepat " + size + " angka (integer) dipisahkan spasi.");
+                continue;
+            }
+
+            try {
+                int[] result = new int[size];
+                for (int i = 0; i < size; i++) {
+                    result[i] = Integer.parseInt(tokens[i]);
+                }
+                return result;
+            } catch (NumberFormatException e) {
+                System.out.println("Masukan tidak valid! Harus berupa angka bulat (integer).");
+            }
+        }
+    }
+
+
 }
