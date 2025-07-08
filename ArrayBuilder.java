@@ -478,6 +478,195 @@ public class ArrayBuilder {
     }
 
 
+    @Deprecated
+    public boolean isPangram(String sentence) {
+        sentence = sentence.toLowerCase(); // ignore case
+        boolean[] alphabet = new boolean[26]; // 26 letters a–z
+
+        for (int i = 0; i < sentence.length(); i++) {
+            char c = sentence.charAt(i);
+            if (c >= 'a' && c <= 'z') {
+                alphabet[c - 'a'] = true;
+            }
+        }
+
+        for (int i = 0; i < 26; i++) {
+            if (!alphabet[i]) return false;
+        }
+
+        return true;
+    }
+
+    @Deprecated
+    public int[] countCharFrequency(String s) {
+        int[] freq = new int[26];
+        s = s.toLowerCase();
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c >= 'a' && c <= 'z') {
+                freq[c - 'a']++;
+            }
+        }
+        return freq;
+    }
+
+    @Deprecated
+    public boolean isAnagram(String s1, String s2) {
+        int[] count1 = countCharFrequency(s1);
+        int[] count2 = countCharFrequency(s2);
+        
+        for (int i = 0; i < 26; i++) {
+            if (count1[i] != count2[i]) return false;
+        }
+        return true;
+    }
+
+    @Deprecated
+    public String reverseString(String s) {
+        char[] arr = s.toCharArray();
+        int left = 0, right = arr.length - 1;
+        while (left < right) {
+            char temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
+        }
+        return new String(arr);
+    }
+
+    @Deprecated
+    public int countWords(String s) {
+        int count = 0;
+        boolean inWord = false;
+
+        for (int i = 0; i < s.length(); i++) {
+            if (Character.isWhitespace(s.charAt(i))) {
+                inWord = false;
+            } else if (!inWord) {
+                count++;
+                inWord = true;
+            }
+        }
+
+        return count;
+    }
+
+    @Deprecated
+    public boolean allCharsUnique(String s) {
+        boolean[] seen = new boolean[256]; // For all ASCII
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (seen[c]) return false;
+            seen[c] = true;
+        }
+        return true;
+    }
+
+    @Deprecated
+    public boolean isPalindrome(String s) {
+        s = s.toLowerCase();
+        int left = 0;
+        int right = s.length() - 1;
+
+        while (left < right) {
+            while (left < right && !Character.isLetterOrDigit(s.charAt(left))) left++;
+            while (left < right && !Character.isLetterOrDigit(s.charAt(right))) right--;
+            if (s.charAt(left) != s.charAt(right)) return false;
+            left++;
+            right--;
+        }
+
+        return true;
+    }
+
+    //
+    // 1 fuct 
+
+    @Deprecated
+    public boolean isPalindromeRecursive(String s) {
+        s = s.toLowerCase();
+        return isPalindromeHelper(s, 0, s.length() - 1);
+    }
+
+    private boolean isPalindromeHelper(String s, int left, int right) {
+        while (left < right && !Character.isLetterOrDigit(s.charAt(left))) left++;
+        while (left < right && !Character.isLetterOrDigit(s.charAt(right))) right--;
+        
+        if (left >= right) return true;
+        if (s.charAt(left) != s.charAt(right)) return false;
+        
+        return isPalindromeHelper(s, left + 1, right - 1);
+    }
+    // reverse
+
+    @Deprecated
+    public int[][] reverseMatrixFlattened(int[][] matrix) {
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+        int total = rows * cols;
+
+        // Flatten
+        int[] flat = new int[total];
+        int index = 0;
+        for (int[] row : matrix) {
+            for (int val : row) {
+                flat[index++] = val;
+            }
+        }
+
+        // Reverse flat array
+        for (int i = 0; i < total / 2; i++) {
+            int temp = flat[i];
+            flat[i] = flat[total - 1 - i];
+            flat[total - 1 - i] = temp;
+        }
+
+        // Reshape
+        int[][] result = new int[rows][cols];
+        index = 0;
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                result[i][j] = flat[index++];
+            }
+        }
+
+        return result;
+    }
+
+
+    @Deprecated
+    public int[][] reverseMatrixRows(int[][] matrix) {
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+        int[][] result = new int[rows][cols];
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                result[i][j] = matrix[i][cols - 1 - j];
+            }
+        }
+
+        return result;
+    }
+
+    @Deprecated
+    public int[][] reverseMatrixColumns(int[][] matrix) {
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+        int[][] result = new int[rows][cols];
+
+        for (int j = 0; j < cols; j++) {
+            for (int i = 0; i < rows; i++) {
+                result[i][j] = matrix[rows - 1 - i][j];
+            }
+        }
+
+        return result;
+    }
+
+    
+
 
 
 }
