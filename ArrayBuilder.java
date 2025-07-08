@@ -283,15 +283,112 @@ public class ArrayBuilder {
         }
         return result;
     }
-
-
-
-
-
-
-
-
-
-
     
+    public static void bubbleSort(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 0; j < arr.length - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+
+    // Sum of 1D array
+    public int sum1D(int[] arr) {
+        int sum = 0;
+        for (int val : arr) sum += val;
+        return sum;
+    }
+
+    // Max/min value in 1D array
+    public int max1D(int[] arr) {
+        int max = arr[0];
+        for (int val : arr) if (val > max) max = val;
+        return max;
+    }
+
+    public int min1D(int[] arr) {
+        int min = arr[0];
+        for (int val : arr) if (val < min) min = val;
+        return min;
+    }
+
+    // Reverse a 1D array
+    public int[] reverseArray(int[] arr) {
+        int[] result = new int[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            result[i] = arr[arr.length - 1 - i];
+        }
+        return result;
+    }
+
+    // Check if a 2D array is symmetric
+    public boolean isSymmetric(int[][] matrix) {
+        int n = matrix.length;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] != matrix[j][i]) return false;
+            }
+        }
+        return true;
+    }
+
+    // Check if all rows/columns are equal sum
+    public boolean hasUniformRowSums(int[][] matrix) {
+        int target = sum1D(matrix[0]);
+        for (int i = 1; i < matrix.length; i++) {
+            if (sum1D(matrix[i]) != target) return false;
+        }
+        return true;
+    }
+
+    // Print 1D array
+    public void print1D(int[] arr) {
+        for (int val : arr) System.out.print(val + " ");
+        System.out.println();
+    }
+
+    // Print with labels
+    public void printLabeledMatrix(String[] labels, int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            System.out.print(labels[i] + ": ");
+            for (int val : matrix[i]) {
+                System.out.print(val + " ");
+            }
+            System.out.println();
+        }
+    }
+
+
+    public void fillIntBorder(int[][] array, int borderValue) {
+        int rows = array.length;
+        int cols = array[0].length;
+
+        for (int i = 0; i < rows; i++) {
+            array[i][0] = borderValue;
+            array[i][cols - 1] = borderValue;
+        }
+        for (int j = 0; j < cols; j++) {
+            array[0][j] = borderValue;
+            array[rows - 1][j] = borderValue;
+        }
+    }
+
+    public void fillStringBorder(String[][] array, String borderValue) {
+        int rows = array.length;
+        int cols = array[0].length;
+
+        for (int i = 0; i < rows; i++) {
+            array[i][0] = borderValue;
+            array[i][cols - 1] = borderValue;
+        }
+        for (int j = 0; j < cols; j++) {
+            array[0][j] = borderValue;
+            array[rows - 1][j] = borderValue;
+        }
+    }    
 }
