@@ -1,0 +1,261 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "Triangle",
+            "projectName": "DDP2-Pekan05-Array_ad49f418"
+        },
+        {
+            "type": "java",
+            "name": "B",
+            "request": "launch",
+            "mainClass": "B",
+            "projectName": "DDP2-Pekan05-Array_ad49f418"
+        },
+        {
+            "type": "java",
+            "name": "A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "DDP2-Pekan05-Array_ad49f418"
+        },
+        {
+            "type": "java",
+            "name": "AnalyzeManyNumbers",
+            "request": "launch",
+            "mainClass": "AnalyzeManyNumbers",
+            "projectName": "DDP2-Pekan05-Array_ad49f418"
+        },
+        {
+            "type": "java",
+            "name": "FindingLargest",
+            "request": "launch",
+            "mainClass": "FindingLargest",
+            "projectName": "DDP2-Pekan05-Array_ad49f418"
+        },
+        {
+            "type": "java",
+            "name": "TotalScoreClass",
+            "request": "launch",
+            "mainClass": "TotalScoreClass",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "RaggedArrays",
+            "request": "launch",
+            "mainClass": "RaggedArrays",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Conway",
+            "request": "launch",
+            "mainClass": "Conway",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "ArrayCopy",
+            "request": "launch",
+            "mainClass": "ArrayCopy",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TotalMatriks",
+            "request": "launch",
+            "mainClass": "TotalMatriks",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnalyzeNumbers",
+            "request": "launch",
+            "mainClass": "AnalyzeNumbers",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch B",
+            "request": "launch",
+            "mainClass": "B",
+            "args": "Saya mau minum",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "args": "3 + 5",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckSudokuSolution",
+            "request": "launch",
+            "mainClass": "CheckSudokuSolution",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountLettersInArray",
+            "request": "launch",
+            "mainClass": "CountLettersInArray",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeckOfCards",
+            "request": "launch",
+            "mainClass": "DeckOfCards",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercise_4_2",
+            "request": "launch",
+            "mainClass": "Exercise_4_2",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindNearestPoints",
+            "request": "launch",
+            "mainClass": "FindNearestPoints",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch GradeExam",
+            "request": "launch",
+            "mainClass": "GradeExam",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch GuessBirthday",
+            "request": "launch",
+            "mainClass": "GuessBirthday",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch GuessBirthdayUsingArray",
+            "request": "launch",
+            "mainClass": "GuessBirthdayUsingArray",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch LottoNumbers",
+            "request": "launch",
+            "mainClass": "LottoNumbers",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PassTwoDimensionalArray",
+            "request": "launch",
+            "mainClass": "PassTwoDimensionalArray",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sudoku",
+            "request": "launch",
+            "mainClass": "Sudoku",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestBinarySearch",
+            "request": "launch",
+            "mainClass": "TestBinarySearch",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestPassArray",
+            "request": "launch",
+            "mainClass": "TestPassArray",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestPassByValue",
+            "request": "launch",
+            "mainClass": "TestPassByValue",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestRandomCharacter",
+            "request": "launch",
+            "mainClass": "TestRandomCharacter",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestSelectionSort",
+            "request": "launch",
+            "mainClass": "TestSelectionSort",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TotalScore",
+            "request": "launch",
+            "mainClass": "TotalScore",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Weather",
+            "request": "launch",
+            "mainClass": "Weather",
+            "projectName": "DDP2-Pekan05-Array_e705a9f"
+        }
+    ]
+}

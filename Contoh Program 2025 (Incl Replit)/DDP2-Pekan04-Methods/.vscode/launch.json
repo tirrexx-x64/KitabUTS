@@ -1,0 +1,203 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CetakKalender",
+            "request": "launch",
+            "mainClass": "CetakKalender",
+            "projectName": "DDP2-Pekan04-Methods_5313eab0"
+        },
+        {
+            "type": "java",
+            "name": "Max",
+            "request": "launch",
+            "mainClass": "Max",
+            "projectName": "DDP2-Pekan04-Methods_5313eab0"
+        },
+        {
+            "type": "java",
+            "name": "Cemara",
+            "request": "launch",
+            "mainClass": "Cemara",
+            "projectName": "DDP2-Pekan04-Methods_5313eab0"
+        },
+        {
+            "type": "java",
+            "name": "CetakBintang",
+            "request": "launch",
+            "mainClass": "CetakBintang",
+            "projectName": "DDP2-Pekan04-Methods_5313eab0"
+        },
+        {
+            "type": "java",
+            "name": "Ex07PrimeNumberMethod",
+            "request": "launch",
+            "mainClass": "Ex07PrimeNumberMethod",
+            "projectName": "DDP2-Pekan04-Methods_5313eab0"
+        },
+        {
+            "type": "java",
+            "name": "Boxes",
+            "request": "launch",
+            "mainClass": "Boxes",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimaKembar",
+            "request": "launch",
+            "mainClass": "PrimaKembar",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplicationTable",
+            "request": "launch",
+            "mainClass": "MultiplicationTable",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimaPalindrom",
+            "request": "launch",
+            "mainClass": "PrimaPalindrom",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplicationTableMethod",
+            "request": "launch",
+            "mainClass": "MultiplicationTableMethod",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Launch Utama",
+            "request": "launch",
+            "mainClass": "Utama",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Palindrom",
+            "request": "launch",
+            "mainClass": "Palindrom",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Prime",
+            "request": "launch",
+            "mainClass": "Prime",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CobaBedaFile",
+            "request": "launch",
+            "mainClass": "CobaBedaFile",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex00TestMaks",
+            "request": "launch",
+            "mainClass": "Ex00TestMaks",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex01TestMax<DDP2-Pekan04-Methods_43acb77>",
+            "request": "launch",
+            "mainClass": "Ex01TestMax",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex02TestVoidMethod<DDP2-Pekan04-Methods_43acb77>",
+            "request": "launch",
+            "mainClass": "Ex02TestVoidMethod",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex03TestReturnGradeMethod<DDP2-Pekan04-Methods_43acb77>",
+            "request": "launch",
+            "mainClass": "Ex03TestReturnGradeMethod",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex04Increment<DDP2-Pekan04-Methods_43acb77>",
+            "request": "launch",
+            "mainClass": "Ex04Increment",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex05TestPassByValue<DDP2-Pekan04-Methods_43acb77>",
+            "request": "launch",
+            "mainClass": "Ex05TestPassByValue",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex06GreatestCommonDivisorMethod<DDP2-Pekan04-Methods_43acb77>",
+            "request": "launch",
+            "mainClass": "Ex06GreatestCommonDivisorMethod",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex07PrimeNumberMethod<DDP2-Pekan04-Methods_43acb77>",
+            "request": "launch",
+            "mainClass": "Ex07PrimeNumberMethod",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex08Hex2Dec<DDP2-Pekan04-Methods_43acb77>",
+            "request": "launch",
+            "mainClass": "Ex08Hex2Dec",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex09TestMethodOverloading<DDP2-Pekan04-Methods_43acb77>",
+            "request": "launch",
+            "mainClass": "Ex09TestMethodOverloading",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex11TestRandomCharacter<DDP2-Pekan04-Methods_43acb77>",
+            "request": "launch",
+            "mainClass": "Ex11TestRandomCharacter",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex12PrintCalendar<DDP2-Pekan04-Methods_43acb77>",
+            "request": "launch",
+            "mainClass": "Ex12PrintCalendar",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<DDP2-Pekan04-Methods_43acb77>",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "DDP2-Pekan04-Methods_43acb77"
+        }
+    ]
+}

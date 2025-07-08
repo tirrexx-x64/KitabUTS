@@ -1,0 +1,210 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MultiplicationTableOO",
+            "request": "launch",
+            "mainClass": "MultiplicationTableOO",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_eea0ef17"
+        },
+        {
+            "type": "java",
+            "name": "MultiplicationTableMethod",
+            "request": "launch",
+            "mainClass": "MultiplicationTableMethod",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_eea0ef17"
+        },
+        {
+            "type": "java",
+            "name": "MultiplicationTable",
+            "request": "launch",
+            "mainClass": "MultiplicationTable",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_eea0ef17"
+        },
+        {
+            "type": "java",
+            "name": "Grade",
+            "request": "launch",
+            "mainClass": "Grade",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_eea0ef17"
+        },
+        {
+            "type": "java",
+            "name": "CobaCircle",
+            "request": "launch",
+            "mainClass": "CobaCircle",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_eea0ef17"
+        },
+        {
+            "type": "java",
+            "name": "CobaCircle",
+            "request": "launch",
+            "mainClass": "CobaCircle",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "CobaRandom",
+            "request": "launch",
+            "mainClass": "CobaRandom",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CobaArrays",
+            "request": "launch",
+            "mainClass": "CobaArrays",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "CobaMultiplicationTable",
+            "request": "launch",
+            "mainClass": "CobaMultiplicationTable",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "DoubleTuition",
+            "request": "launch",
+            "mainClass": "DoubleTuition",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "Grade",
+            "request": "launch",
+            "mainClass": "Grade",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "GradeOO",
+            "request": "launch",
+            "mainClass": "GradeOO",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "Lingkaran",
+            "request": "launch",
+            "mainClass": "Lingkaran",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "LocalVariable",
+            "request": "launch",
+            "mainClass": "LocalVariable",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "MainSudoku",
+            "request": "launch",
+            "mainClass": "MainSudoku",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "MainSudoku_object",
+            "request": "launch",
+            "mainClass": "MainSudoku_object",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "MainTV",
+            "request": "launch",
+            "mainClass": "MainTV",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "MoreCircles",
+            "request": "launch",
+            "mainClass": "MoreCircles",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "MultiplicationTable",
+            "request": "launch",
+            "mainClass": "MultiplicationTable",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "MultiplicationTableMethod",
+            "request": "launch",
+            "mainClass": "MultiplicationTableMethod",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "MultiplicationTableOO",
+            "request": "launch",
+            "mainClass": "MultiplicationTableOO",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "RunnerCircle",
+            "request": "launch",
+            "mainClass": "RunnerCircle",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "RunnerPassObject",
+            "request": "launch",
+            "mainClass": "RunnerPassObject",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "RunnerStudentBirthDate",
+            "request": "launch",
+            "mainClass": "RunnerStudentBirthDate",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "SimpleCircle",
+            "request": "launch",
+            "mainClass": "SimpleCircle",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        },
+        {
+            "type": "java",
+            "name": "TotalArea",
+            "request": "launch",
+            "mainClass": "TotalArea",
+            "projectName": "DDP2-Pekan06-ObjectnClasses_8e07f070"
+        }
+    ]
+}
