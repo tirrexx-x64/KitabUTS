@@ -390,5 +390,63 @@ public class ArrayBuilder {
             array[0][j] = borderValue;
             array[rows - 1][j] = borderValue;
         }
-    }    
+    }
+
+    public char[][] splitStringToCharGrid(String text, int columns) {
+        int length = text.length();
+        int rows = (int) Math.ceil((double) length / columns);
+        char[][] result = new char[rows][columns];
+
+        int idx = 0;
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                if (idx < length) {
+                    result[i][j] = text.charAt(idx++);
+                } else {
+                    result[i][j] = ' '; // padding
+                }
+            }
+        }
+        return result;
+    }
+
+
+    public String[][] convertCharToString(char[][] charArray) {
+        String[][] result = new String[charArray.length][charArray[0].length];
+        for (int i = 0; i < charArray.length; i++) {
+            for (int j = 0; j < charArray[i].length; j++) {
+                result[i][j] = String.valueOf(charArray[i][j]);
+            }
+        }
+        return result;
+    }
+
+
+    public boolean containsSequence(char[][] grid, char[] word) {
+        int rows = grid.length;
+        int cols = grid[0].length;
+        int wlen = word.length;
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j <= cols - wlen; j++) {
+                boolean match = true;
+                for (int k = 0; k < wlen; k++) {
+                    if (grid[i][j + k] != word[k]) {
+                        match = false;
+                        break;
+                    }
+                }
+                if (match) return true;
+            }
+        }
+        return false;
+    }
+
+
+    public boolean containsWord(char[][] grid, String word) {
+        return containsSequence(grid, word.toCharArray());
+    }
+
+
+
 }
