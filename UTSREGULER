@@ -1,0 +1,150 @@
+JAWABAN ESSAY UTS REGULER ( Anagram )
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class AnagramChecker {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine(); // contoh input: Listen # Silent
+        scanner.close();
+
+        String[] parts = input.split("#");
+        if (parts.length != 2) {
+            System.out.println("Format input tidak valid.");
+            return;
+        }
+
+        String kalimat1 = parts[0].replaceAll("\\s+", "").toLowerCase();
+        String kalimat2 = parts[1].replaceAll("\\s+", "").toLowerCase();
+
+        char[] arr1 = kalimat1.toCharArray();
+        char[] arr2 = kalimat2.toCharArray();
+
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+
+        if (Arrays.equals(arr1, arr2)) {
+            System.out.println("input merupakan anagram.");
+        } else {
+            System.out.println("input bukan merupakan anagram.");
+        }
+    }
+}
+
+INI REFACTOR JADI OOP YANG MOBILOO
+// File: Car.java
+public class Car {
+    private String brand;
+    private String model;
+    private int speed;
+
+    public Car(String brand, String model) {
+        this.brand = brand;
+        this.model = model;
+        this.speed = 0;
+    }
+
+    public void accelerate(int increase) {
+        speed += increase;
+    }
+
+    public void brake(int decrease) {
+        speed -= decrease;
+    }
+
+    public void displayInfo() {
+        System.out.println("Car: " + brand + " " + model);
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+}
+
+
+MAIN
+public class IniMobilOO {
+    public static void main(String[] args) {
+        Car car = new Car("Camry", "Sedan");
+
+        System.out.println(car.getSpeed()); // 0
+
+        car.accelerate(150);
+        System.out.println(car.getSpeed()); // 150
+
+        car.brake(25);
+        System.out.println(car.getSpeed()); // 125
+
+        car.displayInfo(); // Car: Camry Sedan
+    }
+}
+
+CEK PANGRAM 
+import java.util.Scanner;
+
+public class CekPangram {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String kalimat = scanner.nextLine();
+        scanner.close();
+
+        if (isPangram(kalimat)) {
+            System.out.println("Kalimat adalah pangram.");
+        } else {
+            System.out.println("Kalimat bukan pangram.");
+        }
+    }
+
+    public static boolean isPangram(String kalimat) {
+        kalimat = kalimat.toLowerCase();
+
+        String alfabet = "abcdefghijklmnopqrstuvwxyz";
+
+        for (int i = 0; i < alfabet.length(); i++) {
+            char huruf = alfabet.charAt(i);
+            if (!kalimat.contains(String.valueOf(huruf))) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
+
+
+
+
+public class ArrayChecker {
+    public static boolean innerArrayChecker(int[] outer, int[] inner) {
+        int i = 0; // indeks untuk outer
+        int j = 0; // indeks untuk inner
+
+        while (i < outer.length && j < inner.length) {
+            if (outer[i] == inner[j]) {
+                j++; // cocok, lanjutkan ke elemen berikutnya di inner
+            }
+            i++; // lanjutkan scanning outer
+        }
+
+        // Jika seluruh elemen inner ditemukan urut di outer
+        return j == inner.length;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(innerArrayChecker(new int[]{1, 2, 4, 6}, new int[]{2, 4}));     // true
+        System.out.println(innerArrayChecker(new int[]{1, 2, 4, 6}, new int[]{2, 3, 4}));  // false
+        System.out.println(innerArrayChecker(new int[]{1, 2, 4, 4, 6}, new int[]{2, 4, 6})); // true
+        System.out.println(innerArrayChecker(new int[]{1, 5, 3, 2, 1}, new int[]{3, 2}));  // true
+    }
+}
+
+
+
+
+
+
+
+
+
+
