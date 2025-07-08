@@ -1,1 +1,1 @@
-gimana ini cok
+gatau
